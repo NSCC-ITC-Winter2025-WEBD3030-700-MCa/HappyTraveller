@@ -1,7 +1,6 @@
 # Important Notes
 This document provides step-by-step instructions to set up Hugo on a Windows machine and prepare your project for contribution by the GitHub community.
  
-
 Always use the hugo_extended version for advanced features and better compatibility.
 Ensure your contributions follow the project guidelines and coding standards.
 
