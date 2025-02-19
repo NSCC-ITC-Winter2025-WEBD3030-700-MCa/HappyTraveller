@@ -1,7 +1,11 @@
 # Hugo Installation
 ## Windows 10/11
 Prerequisites:
-- Windows 10/11
+- **Hugo** (`hugo_extended`) downloaded from the [GitHub Releases](https://github.com/gohugoio/hugo/releases) page  
+    - *Recommended:* Latest version or at least version X.X.X (if applicable)  
+- **Visual Studio Code** (or any code editor of your choice)  
+- **Command-line interface** (e.g., Command Prompt, PowerShell)  
+- **Basic understanding of command-line operations**  
 Installation Instructions:
 1. Create Directory Structure:
     - Navigate to the root directory (`C:\Program Files`).
