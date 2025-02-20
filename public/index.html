@@ -26,8 +26,7 @@
     <meta name="generator" content="Hugo 0.142.0" />
     <meta name="robots" content="noindex, nofollow" />
     <link rel="stylesheet" href="/ananke/css/main.min.css" />
-
-    <link
+    <link href="https://fonts.googleapis.com/css2?family=Acme&display=swap" rel="stylesheet">    <link
       href="/index.xml"
       rel="alternate"
       type="application/rss+xml"
@@ -55,25 +54,34 @@
   <body class="ma0 avenir bg-near-white development">
     <header>
       <div class="pb3-m pb6-l bg-black">
-        <nav class="pv3 ph3 ph4-ns" role="navigation">
+        <nav class="pv3 ph3 ph4-ns" role="navigation" style="background-color: #518a3d; padding: 20px 30px; font-family: 'Acme', sans-serif; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);">
           <div class="flex-l justify-between items-center center">
             <div class="flex items-center">
-              <img src="/images/logo.jpg" alt="logo" class="br-100 w3 h3 object-cover mr3" />
-              <a href="/" class="f3 fw2 hover-white no-underline white-90 dib ml3">
+              <!-- Logo -->
+              <img src="/images/logo.jpg" alt="logo" class="br-100 w3 h3 object-cover mr3" style="border-radius: 50%; width: 50px; height: 50px; box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);" />
+              
+              <!-- Site Title -->
+              <a href="/" class="f5 fw4 hover-white no-underline white-90 dib ml3" style="color: #fcfc01; font-size: 2.5rem; font-weight: 600; text-decoration: none; margin-left: 20px; transition: color 0.3s;">
                 Happy Traveller
               </a>
             </div>
-            
+        
             <div class="flex-l items-center">
-              <div class="ananke-socials">
-                <a href="/" class="no-underline">Home</a>
-                <a href="/about" class="no-underline">About</a>
-                <a href="/contact" class="no-underline">Contact</a>
+              <!-- Navigation Links -->
+              <div class="ananke-socials" style="display: flex; gap: 30px;">
+                <a href="/" class="no-underline" style="color: #fcfc01; font-size: 20px; ">
+                  Home
+                </a>
+                <a href="/about" class="no-underline" style="color: #fcfc01; font-size: 20px; ">
+                  About
+                </a>
+                <a href="/contact" class="no-underline" style="color: #fcfc01; font-size: 20px; ">
+                  Contact
+                </a>
               </div>
             </div>
           </div>
         </nav>
-
         <div style="background-color:#f7f7f7; border-radius:10px; padding:20px; width:90%; margin:auto; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);">
           <h1 style="font-size:2.5rem; color:#4a4a4a; margin-bottom:10px; text-align:center;">
             Welcome to Happy Traveller
@@ -114,38 +122,37 @@
         class="cf ph3 ph5-l pv3 pv4-l f4 tc-l center measure-wide lh-copy mid-gray"
       ></article>
     </main>
+<!-- Footer -->
+<footer class="bottom-0 w-100 pa3" style="background-color: #518a3d; padding: 20px 30px; font-family: 'Acme', sans-serif; box-shadow: 0 -4px 8px rgba(0, 0, 0, 0.1)" role="contentinfo">
+  <div class="flex flex-column flex-row-l justify-between items-center">
+    <!-- Copyright Section -->
+    <a class="f4 fw4 hover-white no-underline pv2 ph3" href="/" style="color: #fcfc01;">
+      &copy; Happy Traveller - 2025
+    </a>
 
-    <!-- Footer -->
-    <footer class="bg-black bottom-0 w-100 pa4 white-70" role="contentinfo">
-      <div class="flex flex-column flex-row-l justify-between items-center">
-        <!-- Copyright Section -->
-        <a class="f4 fw4 hover-white no-underline white-70 pv2 ph3" href="/">
-          &copy; My New Hugo Site 2025
-        </a>
-
-        <!-- Navigation Links -->
-        <nav>
-          <ul class="list pl0 flex">
-            <li class="mr3">
-              <a class="white-70 hover-white no-underline" href="/about/"
-                >About</a
-              >
-            </li>
-            <li class="mr3">
-              <a class="white-70 hover-white no-underline" href="/contact/"
-                >Contact</a
-              >
-            </li>
-            <li>
-              <a
-                class="white-70 hover-white no-underline"
-                href="/privacy-policy/"
-                >Privacy Policy</a
-              >
-            </li>
-          </ul>
-        </nav>
-      </div>
-    </footer>
+    <!-- Navigation Links -->
+    <nav>
+      <ul class="list pl0 flex">
+        <li class="mr3">
+          <a class=" hover-white no-underline" href="/about/" style="color: #fcfc01; font-size: 18px; font-weight: 400; "
+            >About</a
+          >
+        </li>
+        <li class="mr3">
+          <a class="hover-white no-underline" href="/contact/" style="color: #fcfc01; font-size: 18px; font-weight: 400;"
+            >Contact</a
+          >
+        </li>
+        <li>
+          <a
+            class=" hover-white no-underline"
+            href="/privacy-policy/" style="color: #fcfc01; font-size: 18px; font-weight: 400; "
+            >Privacy Policy</a
+          >
+        </li>
+      </ul>
+    </nav>
+  </div>
+</footer>
   </body>
 </html>
