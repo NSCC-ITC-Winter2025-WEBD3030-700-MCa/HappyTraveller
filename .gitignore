@@ -1,0 +1,11 @@
+# Hugo build output
+public/
+resources/
+hugo_stats.json
+
+# System files
+.DS_Store
+Thumbs.db
+
+# Node modules (if using npm/yarn)
+node_modules/
