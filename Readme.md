@@ -86,3 +86,34 @@ mv hugo /usr/local/bin/
 Verify installation using:
 
 hugo version
+
+
+
+Another way:
+Step 1: Open PowerShell as Administrator
+
+    Press Win + X
+
+    Click Windows Terminal (Admin) or PowerShell (Admin)
+
+    Run the following command to install Chocolatey (if not installed already):
+
+    Set-ExecutionPolicy Bypass -Scope Process -Force; [System.Net.ServicePointManager]::SecurityProtocol = [System.Net.ServicePointManager]::SecurityProtocol -bor 3072; iex ((New-Object System.Net.WebClient).DownloadString('https://community.chocolatey.org/install.ps1'))
+
+    Restart your terminal after installation.
+
+Step 2: Install Hugo
+
+Once Chocolatey is installed, run the following command:
+
+choco install hugo -y
+
+Step 3: Verify Installation
+
+After installation, check the installed Hugo version:
+
+hugo version
+
+✅ If successful, you will see output like:
+
+hugo v0.142.0-xxxxxx windows/amd64 BuildDate=xxxx
