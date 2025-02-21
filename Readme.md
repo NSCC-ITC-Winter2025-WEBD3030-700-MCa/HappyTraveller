@@ -147,12 +147,6 @@ After installation, check the installed Hugo version:
 
 hugo version
 
-If successful, you will see output like:
+✅ If successful, you will see output like:
 
 hugo v0.142.0-xxxxxx windows/amd64 BuildDate=xxxx
-
-## Live Deployed Site
-
-You can view the live version of the site at:
-
-[https://happytraveller2.onrender.com/](https://happytraveller2.onrender.com/)
