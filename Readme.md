@@ -1,5 +1,5 @@
 # Hugo Installation for Windows
-This document provides step-by-step instructions to set up Hugo on a Windows machine and prepare your project for contribution by the GitHub community.
+This document provides step-by-step instructions to set up Hugo on a Windows, and Mac machine and prepare your project for contribution by the GitHub community.
 
 ## Prerequisites
 
@@ -12,40 +12,43 @@ Before installing Hugo, ensure you have the following:
 - **Basic understanding of command-line operations**  
 
 
-Installation Instructions
-1.Create Directory Structure:
-Navigate to the root directory (C:\Program Files).
-Create a folder named Hugo (with a capital H).
-Inside the Hugo folder, create another folder named  bin.
-Download Hugo:
-Visit the Hugo GitHub Releases Page.
-Locate the latest release and download the hugo_extended version for Windows.
-Ensure you select the appropriate file ending with .zip.
-Extract Hugo Files:
-Extract the contents of the downloaded zip file.
-Copy the extracted files into the bin folder created earlier (C:\Program Files\Hugo\bin).
-Set Environment Variables:
-Open Start Menu and search for Environment Variables.
-Select Edit the system environment variables.
-Click the Environment Variables button.
-Under System Variables, find and select the Path variable, then click Edit.
-Click New and add the path to the bin folder (C:\Program Files\Hugo\bin).
-Click OK to close all dialog boxes.
-Verify Installation:
-Open Command Prompt (cmd).
-Type the following command and press Enter:
-    
-hugo version
-
-If Hugo is correctly installed, you should see the version information.
-
-Open the cloned folder in VS Code and To run the web application press following command 
-
-hugo server
- 
-Important Notes
 Always use the hugo_extended version for advanced features and better compatibility.
 Ensure your contributions follow the project guidelines and coding standards.
+
+
+
+***Below is the instruction to install Hugo for Windows***
+
+1. Go to Windows PowerShell in Administration view
+
+2. Run: choco --version (To check for chocolaty.)
+
+If chocolaty is installed, navigate to the location of the cloned folder, then run:
+
+3. choco install hugo-extended
+4. hugo verison (If Hugo is correctly installed, you should see the version information.)
+5. hugo server
+6. Then navigate to the localhost's port.
+EX: http://localhost:1313
+
+
+If chocolaty is not installed run:
+
+1. Set-ExecutionPolicy Bypass -Scope Process -Force
+[System.Net.ServicePointManager]::SecurityProtocol = [System.Net.SecurityProtocolType]::Tls12;
+iex ((New-Object System.Net.WebClient).DownloadString('https://community.chocolatey.org/install.ps1'))
+
+This will allow you to download choclaty with elevated privilages. These are needed for properly running the site.
+
+Afterwards, check the installation suceeced by running:
+2. choco --version
+3. Navigate to the location of the cloned folder, and run the following commands.
+4. choco install hugo-extended
+5. hugo verison (If Hugo is correctly installed, you should see the version information.)
+6. hugo server
+7. Then navigate to the localhost's port.
+EX: http://localhost:1313
+
 
 
 ***Below is the instruction to install Hugo in MacOS***
