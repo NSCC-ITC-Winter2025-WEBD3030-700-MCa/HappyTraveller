@@ -1,0 +1,4 @@
+# Ignore Hugo build output
+public/
+resources/
+hugo_stats.json
