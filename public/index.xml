@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
+<<<<<<< HEAD
+    <title>Happy Travellers</title>
+=======
     <title>Happy Traveller</title>
+>>>>>>> 8fa4674fd51fcbf1118812eaaff043996277e6cb
     <link>http://localhost:1313/</link>
     <description>Recent content on Happy Traveller</description>
     <generator>Hugo</generator>
