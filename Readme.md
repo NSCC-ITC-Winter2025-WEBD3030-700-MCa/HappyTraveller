@@ -115,7 +115,7 @@ Commit your changes.
 Push to your branch and submit a pull request.
  
 ## Live Site
-Visit the live website here: [HappyTraveller]()
+Visit the live website here: [HappyTraveller](https://happytraveller2.onrender.com/)
 
 ### Licence
 Copyright 2025
