@@ -2,14 +2,26 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://localhost:17489/</loc>
-    <lastmod>2025-02-19T11:40:38-04:00</lastmod>
+    <loc>http://localhost:1313/posts/hrm-post/</loc>
+    <lastmod>2025-02-22T18:25:56-04:00</lastmod>
   </url><url>
-    <loc>http://localhost:17489/posts/</loc>
-    <lastmod>2025-02-19T11:40:38-04:00</lastmod>
+    <loc>http://localhost:1313/</loc>
+    <lastmod>2025-02-22T18:25:56-04:00</lastmod>
   </url><url>
-    <loc>http://localhost:17489/categories/</loc>
+    <loc>http://localhost:1313/posts/ns-post/</loc>
+    <lastmod>2025-02-22T18:25:56-04:00</lastmod>
   </url><url>
-    <loc>http://localhost:17489/tags/</loc>
+    <loc>http://localhost:1313/posts/</loc>
+    <lastmod>2025-02-22T18:25:56-04:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/blogging/</loc>
+  </url><url>
+    <loc>http://localhost:1313/categories/</loc>
+  </url><url>
+    <loc>http://localhost:1313/tags/hugo/</loc>
+  </url><url>
+    <loc>http://localhost:1313/tags/</loc>
+  </url><url>
+    <loc>http://localhost:1313/categories/tech/</loc>
   </url>
 </urlset>
