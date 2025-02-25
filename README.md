@@ -108,6 +108,22 @@ hugo version
 -run using 
 hugo server 
 
+## Hugo installation for Linux-based operating systems:
+### 1. Install repository package
+**Alpine:** `doas apk add --no-cache --repository=https://dl-cdn.alpinelinux.org/alpine/edge/community hugo`
+
+**Arch:** `sudo pacman -S hugo`
+
+**Debian:** `sudo apt install hugo`
+
+**Fedora:** `sudo dnf install hugo`
+
+*For more information, visit the [Hugo Linux Installation page](https://gohugo.io/installation/linux/)*
+
+Verify installation using `hugo version`
+
+-run using `hugo server` 
+
 ### Contributing
 Fork the repository.
 Create a new branch (feature-branch)
